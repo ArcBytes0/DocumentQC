@@ -1,0 +1,11 @@
+train: .data/train/images
+val: .data/val/images
+
+nc: 4
+names:
+  0: dogear
+  1: scan_line
+  2: sticky_note
+  3: fold
+
+
