@@ -46,7 +46,7 @@ Lightweight pipeline to run YOLO-based document quality control (QC) on TIFF sca
     output/results.csv
 
 ### Configuration
-- Edit top-level constants in detect_qc.py:
+- Edit top-level constants in **detect_qc.py**:
 
     - MODEL_PATH
     - INPUT_FOLDER
