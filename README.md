@@ -37,7 +37,8 @@ Lightweight pipeline to run YOLO-based document quality control (QC) on TIFF sca
 1. Place TIFF files in input_tifs.
 2. Ensure model exists at runs/train/doc_qc_model/weights/best.pt or update MODEL_PATH in detect_qc.py.
 3. Run:
-python detect_qc.py
+    ```powershell
+    python detect_qc.py
 4. Results:
  - Annotated JPGs for images with detections are saved to output
  - CSV report saved to output/results.csv
@@ -51,7 +52,9 @@ python detect_qc.py
 
 ## Troubleshooting
 - "Import ... could not be resolved": ensure VS Code uses the same interpreter where packages are installed; restart the language server (Command Palette → Python: Restart Language Server).
-- Permission errors when installing packages: use a project virtualenv or python -m pip install --user ....
+- Permission errors when installing packages: use a project virtualenv or
+    ```powershell
+    python -m pip install --user ....
 - If ultralytics fails to use GPU, verify CUDA/cuDNN and drivers are installed and compatible.
 
 ## Notes
