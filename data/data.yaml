@@ -1,5 +1,5 @@
-train: .data/train/images
-val: .data/val/images
+train: C:/Users/thebl/DocumentQC/data/train/images
+val: C:/Users/thebl/DocumentQC/data/val/images
 
 nc: 4
 names:

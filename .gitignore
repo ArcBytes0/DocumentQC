@@ -1,0 +1,9 @@
+data/
+val/
+runs/
+*.pt
+__pycache__/
+*.pyc
+.venv/
+output/
+*.csv
