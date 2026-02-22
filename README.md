@@ -22,7 +22,7 @@ Lightweight pipeline to run YOLO-based document quality control (QC) on TIFF sca
 
 3. Install required packages:
 
- - Optional: create a requirements.txt:
+    - Optional: create a requirements.txt:
 
 4. In VS Code, select the .venv interpreter: Command Palette → Python: Select Interpreter → choose .venv\Scripts\python.exe.
 
@@ -40,10 +40,10 @@ Lightweight pipeline to run YOLO-based document quality control (QC) on TIFF sca
     ```powershell
     python detect_qc.py
 4. Results:
- - Annotated JPGs for images with detections are saved to output
- - CSV report saved to
-    ```powershell
-    output/results.csv
+    - Annotated JPGs for images with detections are saved to output
+    - CSV report saved to
+        ```powershell
+        output/results.csv
 
 ### Configuration
 - Edit top-level constants in **detect_qc.py**:
