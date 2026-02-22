@@ -33,7 +33,7 @@ Lightweight pipeline to run YOLO-based document quality control (QC) on TIFF sca
 - detect_qc.py — main script
 - .gitignore — ignores data, runs, weights, outputs
 
-## Usage
+### Usage
 1. Place TIFF files in input_tifs.
 2. Ensure model exists at runs/train/doc_qc_model/weights/best.pt or update MODEL_PATH in detect_qc.py.
 3. Run:
@@ -43,21 +43,21 @@ Lightweight pipeline to run YOLO-based document quality control (QC) on TIFF sca
  - Annotated JPGs for images with detections are saved to output
  - CSV report saved to output/results.csv
 
-## Configuration
+### Configuration
 - Edit top-level constants in detect_qc.py:
 
 - MODEL_PATH
 - INPUT_FOLDER
 - OUTPUT_FOLDER
 
-## Troubleshooting
+### Troubleshooting
 - "Import ... could not be resolved": ensure VS Code uses the same interpreter where packages are installed; restart the language server (Command Palette → Python: Restart Language Server).
 - Permission errors when installing packages: use a project virtualenv or
     ```powershell
     python -m pip install --user ....
 - If ultralytics fails to use GPU, verify CUDA/cuDNN and drivers are installed and compatible.
 
-## Notes
+### Notes
 - Keep large datasets out of Git. See .gitignore for recommended ignores: data, runs, *.pt, output.
 - For production or large-scale usage, consider batching, multiprocessing, or integrating with a job queue.
 
