@@ -41,14 +41,16 @@ Lightweight pipeline to run YOLO-based document quality control (QC) on TIFF sca
     python detect_qc.py
 4. Results:
  - Annotated JPGs for images with detections are saved to output
- - CSV report saved to output/results.csv
+ - CSV report saved to
+    ```powershell
+    output/results.csv
 
 ### Configuration
 - Edit top-level constants in detect_qc.py:
 
-- MODEL_PATH
-- INPUT_FOLDER
-- OUTPUT_FOLDER
+    - MODEL_PATH
+    - INPUT_FOLDER
+    - OUTPUT_FOLDER
 
 ### Troubleshooting
 - "Import ... could not be resolved": ensure VS Code uses the same interpreter where packages are installed; restart the language server (Command Palette → Python: Restart Language Server).
