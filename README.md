@@ -63,5 +63,3 @@ Lightweight pipeline to run YOLO-based document quality control (QC) on TIFF sca
 - Keep large datasets out of Git. See .gitignore for recommended ignores: data, runs, *.pt, output.
 - For production or large-scale usage, consider batching, multiprocessing, or integrating with a job queue.
 
-## License
-- Add your preferred license file (e.g., LICENSE) to this repository.
